@@ -1,4 +1,5 @@
 <script>
+  import CtAs from "./CTAs.svelte";
   import Header from "./Header.svelte";
   import SectionWrapper from "./SectionWrapper.svelte";
 </script>
@@ -16,5 +17,15 @@
       Training <span class="text-slate-600 line-through">Is Hard</span><br />
       Just Got <span class="text-indigo-400">Easier</span>
     </h2>
+    <p
+      class="text-xl sm:text-2xl md:text-3xl max-w-[1000px] mx-auto w-full text-center"
+    >
+      Less thinkging & More doing. We're the trainer in your pocket full of <span
+        class="italic"
+        >personalized workouts, exercise explanations, analytics</span
+      >
+      and much much more.
+    </p>
+    <CtAs />
   </div>
 </SectionWrapper>
