@@ -1,6 +1,10 @@
-<script>
-  export let index;
-  export let productFeature;
+<script lang="ts">
+  export let index: number;
+  export let productFeature: {
+    featureList: string[];
+    description: string;
+    imgUrl: string;
+  };
 </script>
 
 <div

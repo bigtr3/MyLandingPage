@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
 </script>
 
 <header class="flex flex-col relative z-20">

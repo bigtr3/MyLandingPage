@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
   import ProductCard from "./ProductCard.svelte";
   import SectionWrapper from "./SectionWrapper.svelte";
   let productFeatures = [

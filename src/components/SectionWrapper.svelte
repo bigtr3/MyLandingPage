@@ -1,5 +1,5 @@
-<script>
-  export let id;
+<script lang="ts">
+  export let id: string;
 </script>
 
 <section {id} class={"min-h-screen flex flex-col px-4"}>
