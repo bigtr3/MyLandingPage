@@ -1,17 +1,20 @@
 <script>
+  import { openModal } from "$lib";
 </script>
 
 <header class="flex flex-col relative z-20">
   <div
-    class="max-w-[1400px] mx-auto w-full flex items-center justify-between px-4 py-6"
+    class="max-w-[1400px] mx-auto w-full flex items-center justify-between p-4 py-6"
   >
     <a href="/">
       <h1 class="font-semibold">
         Swoley <span class="text-indigo-400">Moley</span>
       </h1>
     </a>
-    <!-- 화면이 작을 때는 메뉴가 보이지 않도록 하고, 화면이 커지면 메뉴가 보이도록 합니다. -->
-    <button class="md:hidden grid place-items-center">
+    <button
+      on:click={() => ($openModal = true)}
+      class="md:hidden grid place-items-center"
+    >
       <i class="fa-solid fa-bars"></i>
     </button>
     <nav class="hidden md:flex items-center gap-4 lg:gap-6">
