@@ -13,18 +13,22 @@
 		"@sveltejs/adapter-auto": "^6.0.0",
 		"@sveltejs/kit": "^2.22.0",
 		"@sveltejs/vite-plugin-svelte": "^6.0.0",
+		"@tsconfig/svelte": "^5.0.5",
 		"@types/node": "^24.3.0",
 		"autoprefixer": "^10.4.21",
 		"postcss": "^8.5.6",
+		"sqlite3": "^5.1.7",
 		"svelte": "^5.0.0",
+		"svelte-check": "^4.3.1",
 		"tailwindcss": "^3.4.0",
+		"ts-node": "^10.9.2",
 		"tslib": "^2.8.1",
+		"typeorm": "^0.3.26",
 		"typescript": "^5.9.2",
 		"vite": "^7.0.4"
 	},
 	"dependencies": {
 		"@tailwindcss/vite": "^4.1.11",
-		"sqlite3": "^5.1.7",
-		"typeorm": "^0.3.26"
+		"reflect-metadata": "^0.2.2"
 	}
 }
